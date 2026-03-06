@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_sections_cloud_expertises",
+  "info": {
+    "displayName": "CloudExpertise"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "Button": {
+      "type": "string"
+    },
+    "buttonlink": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

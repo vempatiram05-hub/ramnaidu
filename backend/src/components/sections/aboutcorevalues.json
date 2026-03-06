@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_aboutcorevalues",
+  "info": {
+    "displayName": "aboutcorevalues"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "aboutCoreValues": {
+      "type": "component",
+      "component": "sections.about-core-values",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_cloud_solution_ctas",
+  "info": {
+    "displayName": "CloudSolutionCTA"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Button": {
+      "type": "string"
+    },
+    "buttonlink": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

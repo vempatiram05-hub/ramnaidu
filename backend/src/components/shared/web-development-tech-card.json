@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_shared_web_development_tech_cards",
+  "info": {
+    "displayName": "WebDevelopmentTechCard"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

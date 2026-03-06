@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_pages",
+  "info": {
+    "singularName": "contact-page",
+    "pluralName": "contact-pages",
+    "displayName": "contact page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.contact-hero",
+        "sections.contact-info",
+        "sections.contact-form",
+        "sections.map-section",
+        "nav.link",
+        "nav.dropdown-links"
+      ]
+    }
+  }
+}

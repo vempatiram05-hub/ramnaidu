@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_dev_specs",
+  "info": {
+    "displayName": "dev-specs"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "DevSpecCard": {
+      "type": "component",
+      "component": "sections.devspeccard",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

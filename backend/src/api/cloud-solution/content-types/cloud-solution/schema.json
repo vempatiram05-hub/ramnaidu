@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "cloud_solutions",
+  "info": {
+    "singularName": "cloud-solution",
+    "pluralName": "cloud-solutions",
+    "displayName": "CloudSolution"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.cloudhero",
+        "sections.cloud-solution-cta",
+        "sections.cloud-expertise",
+        "sections.cloud-solutionchoose",
+        "sections.cloud-solutionprocess",
+        "sections.cloud-solutions-benifits"
+      ]
+    }
+  }
+}

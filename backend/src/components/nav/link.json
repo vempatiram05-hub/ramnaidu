@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_nav_links",
+  "info": {
+    "displayName": "link"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "hasDropdown": {
+      "type": "boolean"
+    },
+    "dropdownLinks": {
+      "type": "component",
+      "component": "nav.dropdown-links",
+      "repeatable": true
+    },
+    "isButton": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

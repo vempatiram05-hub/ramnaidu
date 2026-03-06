@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_cybersecurritysolutins",
+  "info": {
+    "displayName": " Cybersecurritysolutins"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "CybersecurrityCards": {
+      "type": "component",
+      "component": "sections.cybersecurritycards",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

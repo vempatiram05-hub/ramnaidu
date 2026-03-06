@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "cybersecurrity_service_pages",
+  "info": {
+    "singularName": "cybersecurrity-service-page",
+    "pluralName": "cybersecurrity-service-pages",
+    "displayName": " Cybersecurrity service page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.cybersecurrity-service-hero",
+        "sections.cybersecurrity-services",
+        "sections.cybersecurrity",
+        "sections.cybersecurritysolutins",
+        "sections.cybersecurritystrategies",
+        "sections.cybersecurritycontact"
+      ]
+    }
+  }
+}

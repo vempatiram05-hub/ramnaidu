@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_business_hours",
+  "info": {
+    "displayName": "business-hours"
+  },
+  "options": {},
+  "attributes": {
+    "mondayFriday": {
+      "type": "string"
+    },
+    "saturday": {
+      "type": "string"
+    },
+    "sunday": {
+      "type": "string"
+    },
+    "emergencySupport": {
+      "type": "boolean"
+    },
+    "emergencyText": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_cloud_solutions_benifits",
+  "info": {
+    "displayName": "CloudSolutionsBenifits"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "CloudSolutionBenifitCard": {
+      "type": "component",
+      "component": "shared.cloud-solutionbenifitcard",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

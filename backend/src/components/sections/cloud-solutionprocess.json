@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_cloud_solutionprocesses",
+  "info": {
+    "displayName": "CloudSolutionprocess"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "CloudSolutionsProcess": {
+      "type": "component",
+      "component": "sections.cloud-solutionsprocess",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

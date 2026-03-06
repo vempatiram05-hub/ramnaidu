@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_sections_web_development_heroes",
+  "info": {
+    "displayName": "WebDevelopmentHero"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "primarybutton": {
+      "type": "string"
+    },
+    "primarybuttonurl": {
+      "type": "string"
+    },
+    "seconadrybutton": {
+      "type": "string"
+    },
+    "seconadrybuttonurl": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_dev_fetures",
+  "info": {
+    "displayName": "dev-fetures"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "DevFetCard": {
+      "type": "component",
+      "component": "sections.devfetcard",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

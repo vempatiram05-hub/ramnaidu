@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_sections_case_studies",
+  "info": {
+    "displayName": "case-study"
+  },
+  "options": {},
+  "attributes": {
+    "badge": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "caseCard": {
+      "type": "component",
+      "component": "shared.case-study-card",
+      "repeatable": true
+    },
+    "button": {
+      "type": "component",
+      "component": "shared.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

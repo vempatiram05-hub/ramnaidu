@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_web_development_teches",
+  "info": {
+    "displayName": "Web DevelopmentTech"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "WebDevelopmentTechCard": {
+      "type": "component",
+      "component": "shared.web-development-tech-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

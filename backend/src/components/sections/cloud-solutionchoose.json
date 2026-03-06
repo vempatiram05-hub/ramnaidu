@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_cloud_solutionchooses",
+  "info": {
+    "displayName": "CloudSolutionchoose"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "CloudSolutionPick": {
+      "type": "component",
+      "component": "sections.cloud-solution-pick",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

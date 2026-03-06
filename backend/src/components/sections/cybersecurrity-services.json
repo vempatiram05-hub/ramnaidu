@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_cybersecurrity_services",
+  "info": {
+    "displayName": " Cybersecurrity services"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "cyberServices": {
+      "type": "component",
+      "component": "sections.cyber-services",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

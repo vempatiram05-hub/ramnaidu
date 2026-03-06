@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "web_developmentservices",
+  "info": {
+    "singularName": "web-developmentservice",
+    "pluralName": "web-developmentservices",
+    "displayName": "WebDevelopmentservice"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.web-development-hero",
+        "sections.web-developmentchoose",
+        "sections.web-development-contact",
+        "sections.web-development-tech",
+        "sections.dev-process",
+        "sections.cloud-solution-cta"
+      ]
+    }
+  }
+}

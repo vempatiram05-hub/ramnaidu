@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_dev_processes",
+  "info": {
+    "displayName": "dev-process"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "DevProcessCard": {
+      "type": "component",
+      "component": "sections.devprocesscard",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

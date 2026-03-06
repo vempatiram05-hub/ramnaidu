@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_cloud_solutions",
+  "info": {
+    "displayName": "Cloud Solutions"
+  },
+  "options": {},
+  "attributes": {
+    "CloudSolutionsChooseCard": {
+      "type": "component",
+      "component": "sections.cloud-solutionschoosecard",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

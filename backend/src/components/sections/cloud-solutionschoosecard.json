@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sections_cloud_solutionschoosecards",
+  "info": {
+    "displayName": "CloudSolutionschoosecard"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

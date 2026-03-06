@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_sections_cloudheroes",
+  "info": {
+    "displayName": "Cloudhero"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "primarybutton": {
+      "type": "string"
+    },
+    "primarybuttonurl": {
+      "type": "string"
+    },
+    "seconadrybutton": {
+      "type": "string"
+    },
+    "seconadrybuttonurl": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

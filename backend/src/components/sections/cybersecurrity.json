@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_sections_cybersecurrities",
+  "info": {
+    "displayName": "Cybersecurrity"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "Button": {
+      "type": "string"
+    },
+    "buttonlink": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

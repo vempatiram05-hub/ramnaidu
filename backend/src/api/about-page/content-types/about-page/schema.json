@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_pages",
+  "info": {
+    "singularName": "about-page",
+    "pluralName": "about-pages",
+    "displayName": "About page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.about-hero",
+        "sections.about-mission",
+        "sections.aboutcorevalues",
+        "sections.aboutuniq",
+        "sections.aboutservices",
+        "sections.web-developmentchoose",
+        "sections.about-cta"
+      ]
+    }
+  }
+}

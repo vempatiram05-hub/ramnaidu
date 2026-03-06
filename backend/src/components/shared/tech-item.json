@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_tech_items",
+  "info": {
+    "displayName": "tech-item"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

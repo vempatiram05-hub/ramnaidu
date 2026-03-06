@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sections_contact_forms",
+  "info": {
+    "displayName": "Contact Form"
+  },
+  "options": {},
+  "attributes": {
+    "fullName": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "phoneNumber": {
+      "type": "string"
+    },
+    "companyName": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    },
+    "acceptedPolicy": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

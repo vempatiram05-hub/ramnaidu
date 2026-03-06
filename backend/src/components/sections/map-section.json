@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_map_sections",
+  "info": {
+    "displayName": "Map Section"
+  },
+  "options": {},
+  "attributes": {
+    "locationTitle": {
+      "type": "string"
+    },
+    "googleMapEmbedUrl": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

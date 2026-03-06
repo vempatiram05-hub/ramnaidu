@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sections_about_ctas",
+  "info": {
+    "displayName": "aboutCTA"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "primarybutton": {
+      "type": "string"
+    },
+    "primarybuttonurl": {
+      "type": "string"
+    },
+    "seconadrybutton": {
+      "type": "string"
+    },
+    "seconadrybuttonurl": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

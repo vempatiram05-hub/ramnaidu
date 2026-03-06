@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_cybersecurritycontacts",
+  "info": {
+    "displayName": "Cybersecurritycontact"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Button": {
+      "type": "string"
+    },
+    "buttonlink": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

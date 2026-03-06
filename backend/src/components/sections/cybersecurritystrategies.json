@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_cybersecurritystrategies",
+  "info": {
+    "displayName": " Cybersecurritystrategies"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "CybersecurityStrategycard": {
+      "type": "component",
+      "component": "sections.cybersecurity-strategy",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

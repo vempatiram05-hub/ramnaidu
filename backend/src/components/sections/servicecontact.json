@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_servicecontacts",
+  "info": {
+    "displayName": "servicecontact"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "servicebutton": {
+      "type": "string"
+    },
+    "servicebtnurl": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

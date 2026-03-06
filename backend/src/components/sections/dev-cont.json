@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_dev_conts",
+  "info": {
+    "displayName": "dev-cont"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Button": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

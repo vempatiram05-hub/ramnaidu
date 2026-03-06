@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "mobile_app_developments",
+  "info": {
+    "singularName": "mobile-app-development",
+    "pluralName": "mobile-app-developments",
+    "displayName": "Mobile App Development"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.dev-hero",
+        "sections.dev-specs",
+        "sections.dev-point",
+        "sections.dev-fetures",
+        "sections.dev-process",
+        "sections.dev-cont"
+      ]
+    }
+  }
+}

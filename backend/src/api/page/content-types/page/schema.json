@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.hero",
+        "sections.industries",
+        "sections.service-sections",
+        "sections.about-section",
+        "sections.case-study",
+        "sections.tech-stack",
+        "sections.blog-section",
+        "sections.testimonials",
+        "sections.homeslider",
+        "sections.home-slider"
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_about_missions",
+  "info": {
+    "displayName": "about mission"
+  },
+  "options": {},
+  "attributes": {
+    "aboutValues": {
+      "type": "component",
+      "component": "shared.feature-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_home_sliders",
+  "info": {
+    "displayName": "home-slider"
+  },
+  "options": {},
+  "attributes": {
+    "homeSlider": {
+      "type": "component",
+      "component": "sections.homeslider",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

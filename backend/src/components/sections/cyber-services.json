@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sections_cyber_services",
+  "info": {
+    "displayName": "cyber services"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

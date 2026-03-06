@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_aboutuniqs",
+  "info": {
+    "displayName": "aboutuniq"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "aboutuniq": {
+      "type": "component",
+      "component": "sections.about-uniq",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
