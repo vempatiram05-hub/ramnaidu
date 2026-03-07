@@ -21,19 +21,31 @@ export default async function DevPoint() {
 
   return (
     <section className="devpoint">
-      <div className="devpoint__card">
-        {icon?.url && (
-          <Image
-            src={STRAPI_URL + icon.url}
-            alt={icon.alternativeText || title}
-            width={64}
-            height={64}
-            className="devpoint__icon"
-          />
-        )}
-        <h2 className="devpoint__title">{title}</h2>
-        <p className="devpoint__desc">{description}</p>
-        {Button && <a href="/contact" className="devpoint__btn">{Button}</a>}
+      <div className="devpoint__container">
+        <div className="devpoint__card">
+
+          {icon?.url && (
+            <div className="devpoint__icon-wrap">
+              <Image
+                src={STRAPI_URL + icon.url}
+                alt={icon.alternativeText || title}
+                width={60}
+                height={60}
+                className="devpoint__icon"
+              />
+            </div>
+          )}
+
+          <h2 className="devpoint__title">{title}</h2>
+          <p className="devpoint__desc">{description}</p>
+
+          {Button && (
+            <a href="/contact" className="devpoint__btn">
+              {Button}
+            </a>
+          )}
+
+        </div>
       </div>
     </section>
   );

@@ -40,9 +40,9 @@ export default async function Cybersecurrity() {
 
   return (
     <section className="cybersecurrity">
-      <div className="cybersecurrity__bg" aria-hidden="true" />
       <div className="cybersecurrity__container">
         <div className="cybersecurrity__content">
+
           {icon && (
             <div className="cybersecurrity__icon-wrap">
               <Image
@@ -54,17 +54,13 @@ export default async function Cybersecurrity() {
               />
             </div>
           )}
+
           <h2 className="cybersecurrity__title">{title}</h2>
           <div className="cybersecurrity__rich-text">
             <RichText content={description} />
           </div>
           <a href={buttonlink} className="cybersecurrity__btn">{Button}</a>
-        </div>
 
-        <div className="cybersecurrity__visual" aria-hidden="true">
-          <div className="cybersecurrity__ring" />
-          <div className="cybersecurrity__ring2" />
-          <div className="cybersecurrity__center-dot" />
         </div>
       </div>
     </section>
