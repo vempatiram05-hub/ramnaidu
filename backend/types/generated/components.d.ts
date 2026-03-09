@@ -359,12 +359,26 @@ export interface SectionsContactForm extends Struct.ComponentSchema {
     displayName: 'Contact Form';
   };
   attributes: {
-    acceptedPolicy: Schema.Attribute.Boolean;
-    companyName: Schema.Attribute.String;
-    Email: Schema.Attribute.Email;
-    fullName: Schema.Attribute.String;
-    message: Schema.Attribute.Text;
-    phoneNumber: Schema.Attribute.String;
+    andText: Schema.Attribute.String;
+    companyNameLabel: Schema.Attribute.String;
+    companyNamePlaceholder: Schema.Attribute.String;
+    emailLabel: Schema.Attribute.String;
+    emailPlaceholder: Schema.Attribute.String;
+    errorMessage: Schema.Attribute.String;
+    fullNameLabel: Schema.Attribute.String;
+    fullNamePlaceholder: Schema.Attribute.String;
+    messageLabel: Schema.Attribute.String;
+    messagePlaceholder: Schema.Attribute.String;
+    phoneNumberLabel: Schema.Attribute.String;
+    phoneNumberPlaceholder: Schema.Attribute.String;
+    policyText: Schema.Attribute.String;
+    privacyPolicyLabel: Schema.Attribute.String;
+    sendingLabel: Schema.Attribute.String;
+    submitLabel: Schema.Attribute.String;
+    subtitle: Schema.Attribute.String;
+    successMessage: Schema.Attribute.String;
+    termsLabel: Schema.Attribute.String;
+    title: Schema.Attribute.String;
   };
 }
 

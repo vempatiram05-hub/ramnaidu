@@ -5,23 +5,65 @@
   },
   "options": {},
   "attributes": {
-    "fullName": {
+    "title": {
       "type": "string"
     },
-    "Email": {
-      "type": "email"
-    },
-    "phoneNumber": {
+    "subtitle": {
       "type": "string"
     },
-    "companyName": {
+    "fullNameLabel": {
       "type": "string"
     },
-    "message": {
-      "type": "text"
+    "fullNamePlaceholder": {
+      "type": "string"
     },
-    "acceptedPolicy": {
-      "type": "boolean"
+    "emailLabel": {
+      "type": "string"
+    },
+    "emailPlaceholder": {
+      "type": "string"
+    },
+    "phoneNumberLabel": {
+      "type": "string"
+    },
+    "phoneNumberPlaceholder": {
+      "type": "string"
+    },
+    "companyNameLabel": {
+      "type": "string"
+    },
+    "companyNamePlaceholder": {
+      "type": "string"
+    },
+    "messageLabel": {
+      "type": "string"
+    },
+    "messagePlaceholder": {
+      "type": "string"
+    },
+    "policyText": {
+      "type": "string"
+    },
+    "privacyPolicyLabel": {
+      "type": "string"
+    },
+    "andText": {
+      "type": "string"
+    },
+    "termsLabel": {
+      "type": "string"
+    },
+    "submitLabel": {
+      "type": "string"
+    },
+    "sendingLabel": {
+      "type": "string"
+    },
+    "successMessage": {
+      "type": "string"
+    },
+    "errorMessage": {
+      "type": "string"
     }
   },
   "config": {}
