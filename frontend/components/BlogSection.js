@@ -22,7 +22,7 @@ export default async function BlogSection() {
     <section className="blog-section">
       <div className="container">
         <span className="blog-badge">{section.badge}</span>
-        <h2>{section.title}</h2>
+        <h2 className="blog-title">{section.title}</h2>
         <p>{section.subtitle}</p>
 
         <div className="blog-grid">

@@ -711,7 +711,7 @@ body {
 ============================== */
 
 .industries {
-  padding: 60px 50px;
+  padding: 30px 50px;
   background: #f4f6f9;
   text-align: center;
 }
@@ -723,7 +723,7 @@ body {
 
 .industries-badge {
   display: inline-block;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   background-color: #e6f0ff;
   color: #2563eb;
   padding: 8px 16px;
@@ -736,7 +736,8 @@ body {
   font-size: 32px;
   font-weight: 700;
   color: #111827;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
+  margin-top: 5px;
 }
 
 .industries-description {
@@ -926,7 +927,7 @@ body {
 
 
 .services {
-  padding: 60px 50px;
+  padding: 20px 50px;
   background: #ffffff;
   text-align: center;
 }
@@ -1014,7 +1015,7 @@ body {
 /* ─── Large Desktop 1440px+ ─── */
 @media (min-width: 1440px) {
   .services {
-    padding: 60px 100px;
+    padding: 30px 50px;
   }
 
   .services-title {
@@ -1116,7 +1117,7 @@ body {
 ========================= */
 .about {
   background: #E5E7EB;
-  padding: 80px 50px;
+  padding: 30px 50px;
 }
 
 /* Center Container */
@@ -1130,10 +1131,10 @@ body {
 ========================= */
 .about-top {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-between;
   gap: 80px;
-  margin-bottom: 90px;
+  margin-bottom: 20px;
 }
 
 /* =========================
@@ -1187,11 +1188,11 @@ body {
 }
 
 .about-right img {
-  width: 100%;
+  width: auto;
   max-width: 520px;
   height: auto;
   border-radius: 18px;
-  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0 20px 45px rgba(0, 0, 0, 0.15); */
 }
 
 /* =========================
@@ -1199,7 +1200,7 @@ body {
 ========================= */
 .about-features {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 35px;
 }
 
@@ -1395,7 +1396,7 @@ body {
   font-weight: 600;
 }
 
-.title {
+.case-title {
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 15px;
@@ -1500,7 +1501,7 @@ body {
 
 
 .tech-stack {
-  padding: 60px 50px;
+  padding: 30px 50px;
   background: #f4f6f9;
   text-align: center;
   overflow: hidden;
@@ -1584,7 +1585,7 @@ body {
 /* ─── Large Desktop 1440px+ ─── */
 @media (min-width: 1440px) {
   .tech-stack {
-    padding: 60px 100px;
+    padding: 30px 50px;
   }
 
   .tech-title {
@@ -1663,7 +1664,7 @@ body {
 
 
 .blog-section {
-  padding: 10px 50px;
+  padding: 30px 50px;
   background: #f8f9fb;
   text-align: center;
 }
@@ -1676,7 +1677,10 @@ body {
   font-size: 12px;
   border-radius: 20px;
   font-weight: 600;
-  margin-top: 40px;
+  margin-top: 10px;
+}
+.blog-title{
+  font-size: 32px;
 }
 
 .blog-grid {
@@ -1766,7 +1770,7 @@ body {
 
 
 .testimonials {
-  padding: 40px 50px;
+  padding: 30px 50px;
   background: #f8f9fb;
   text-align: center;
 }
@@ -1775,22 +1779,23 @@ body {
   display: inline-block;
   background: #e6f0ff;
   color: #2563eb;
-  padding: 6px 14px;
+  padding: 6px 8px;
   font-size: 12px;
   border-radius: 20px;
   font-weight: 600;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 .test-title {
   font-size: 34px;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 .test-subtitle {
   color: #6b7280;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .test-grid {
@@ -1857,7 +1862,7 @@ body {
 
 .newsletter input {
   width: auto;
-  padding: 14px 16px;
+  padding: 14px 20px;
   border-radius: 8px 0 0 8px;
   border: none;
   background-color: #1c3b5c;
@@ -2909,7 +2914,7 @@ hr {
 .contact-form__subtitle {
   font-size: 0.875rem;
   color: var(--cf-ink-muted);
-  margin: 0 0 1.75rem;
+  margin: 0 0 .75rem;
   line-height: 1.5;
 }
 
@@ -3070,7 +3075,7 @@ hr {
   border: 1px solid #bbf7d0;
   border-radius: 8px;
   padding: 0.75rem 1rem;
-  margin: 0;
+  margin: 0.5rem;
 }
 
 .contact-form__error {
@@ -3916,7 +3921,7 @@ hr {
    CLOUD EXPERTISE
 ═══════════════════════════════════════════════════════ */
 .cloud-expertise {
-   width: 100%;
+   width: auto;
   background: #eef2f7;
   padding: 100px 20px;
   display: flex;
@@ -3924,7 +3929,7 @@ hr {
 }
 
 .cloud-expertise-container {
-  width: 100%;
+  width: auto;
   max-width: 600px;
   position: relative;
 }
@@ -4390,7 +4395,7 @@ hr {
 
 .services-cyber__grid {
  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 1.5rem;
 }
 
@@ -5715,7 +5720,7 @@ hr {
 
 
 .devpoint {
-  width: 100%;
+  width: auto;
   background: #eef2f7;
   padding: 100px 20px;
   display: flex;
@@ -5723,7 +5728,7 @@ hr {
 }
 
 .devpoint__container {
-  width: 100%;
+  width: auto;
   max-width: 600px;
   position: relative;
 }
