@@ -10,6 +10,25 @@ async function getFooterData() {
   const data = await res.json();
   return data?.data;
 }
+import {
+  Facebook,
+  Twitter,
+  Instagram,
+  Linkedin,
+  Youtube,
+  Github,
+  Globe
+} from 'lucide-react';
+
+const socialIcons = {
+  facebook: <Facebook size={18} />,
+  twitter: <Twitter size={18} />,
+  instagram: <Instagram size={18} />,
+  linkedin: <Linkedin size={18} />,
+  youtube: <Youtube size={18} />,
+  github: <Github size={18} />,
+};
+
 
 export default async function Footer() {
   const footer = await getFooterData();
@@ -48,14 +67,9 @@ export default async function Footer() {
           {/* Right */}
           <div className="footer-right">
             {footer.sociallinks?.map((social) => (
-              <Link
-                key={social.id}
-                href={social.url || "#"}
-                target="_blank"
-                rel="noreferrer"
-                className="social-icon"
-              >
-                {social.platform?.charAt(0).toUpperCase()}
+
+              <Link key={social.id ?? index} href={social.url} className="social-link">
+                {socialIcons[social.platform?.toLowerCase()] ?? <Globe size={18} />}
               </Link>
             ))}
           </div>
